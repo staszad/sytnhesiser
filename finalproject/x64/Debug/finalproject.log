@@ -1,0 +1,4 @@
+﻿  finalproject.cpp
+D:\stas_\Documents\programming\studia\programowanie1\finalproject\finalproject\finalproject.cpp(35,44): warning C4305: '*=': truncation from 'double' to 'float'
+D:\stas_\Documents\programming\studia\programowanie1\finalproject\finalproject\finalproject.cpp(36,14): warning C4244: 'argument': conversion from 'float' to 'DWORD', possible loss of data
+  finalproject.vcxproj -> D:\stas_\Documents\programming\studia\programowanie1\finalproject\x64\Debug\finalproject.exe
