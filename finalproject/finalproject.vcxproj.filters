@@ -16,7 +16,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="finalproject.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Resource Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="olcNoiseMaker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,4 +1,28 @@
 ﻿  finalproject.cpp
-D:\stas_\Documents\programming\studia\programowanie1\finalproject\finalproject\finalproject.cpp(35,44): warning C4305: '*=': truncation from 'double' to 'float'
-D:\stas_\Documents\programming\studia\programowanie1\finalproject\finalproject\finalproject.cpp(36,14): warning C4244: 'argument': conversion from 'float' to 'DWORD', possible loss of data
-  finalproject.vcxproj -> D:\stas_\Documents\programming\studia\programowanie1\finalproject\x64\Debug\finalproject.exe
+D:\stas_\Documents\programming\studia\programowanie1\synth\finalproject\olcNoiseMaker.h(110,18): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  (compiling source file 'finalproject.cpp')
+  D:\stas_\Documents\programming\studia\programowanie1\synth\finalproject\olcNoiseMaker.h(110,18):
+  the template instantiation context (the oldest one first) is
+  	D:\stas_\Documents\programming\studia\programowanie1\synth\finalproject\finalproject.cpp(33,62):
+  	see reference to class template instantiation 'olcNoiseMaker<short>' being compiled
+  	D:\stas_\Documents\programming\studia\programowanie1\synth\finalproject\olcNoiseMaker.h(90,7):
+  	while compiling class template member function 'bool olcNoiseMaker<short>::Create(std::wstring,unsigned int,unsigned int,unsigned int,unsigned int)'
+  		D:\stas_\Documents\programming\studia\programowanie1\synth\finalproject\olcNoiseMaker.h(82,9):
+  		see the first reference to 'olcNoiseMaker<short>::Create' in 'olcNoiseMaker<short>::olcNoiseMaker'
+  		D:\stas_\Documents\programming\studia\programowanie1\synth\finalproject\finalproject.cpp(35,31):
+  		see the first reference to 'olcNoiseMaker<short>::olcNoiseMaker' in 'main'
+  
+D:\stas_\Documents\programming\studia\programowanie1\synth\finalproject\olcNoiseMaker.h(238,4): warning C4312: 'type cast': conversion from 'DWORD' to 'olcNoiseMaker<short> *' of greater size
+  (compiling source file 'finalproject.cpp')
+  D:\stas_\Documents\programming\studia\programowanie1\synth\finalproject\olcNoiseMaker.h(238,4):
+  the template instantiation context (the oldest one first) is
+  	D:\stas_\Documents\programming\studia\programowanie1\synth\finalproject\olcNoiseMaker.h(236,23):
+  	while compiling class template member function 'void olcNoiseMaker<short>::waveOutProcWrap(HWAVEOUT,UINT,DWORD,DWORD,DWORD)'
+  		D:\stas_\Documents\programming\studia\programowanie1\synth\finalproject\olcNoiseMaker.h(121,4):
+  		see the first reference to 'olcNoiseMaker<short>::waveOutProcWrap' in 'olcNoiseMaker<short>::Create'
+  		D:\stas_\Documents\programming\studia\programowanie1\synth\finalproject\olcNoiseMaker.h(82,9):
+  		see the first reference to 'olcNoiseMaker<short>::Create' in 'olcNoiseMaker<short>::olcNoiseMaker'
+  		D:\stas_\Documents\programming\studia\programowanie1\synth\finalproject\finalproject.cpp(35,31):
+  		see the first reference to 'olcNoiseMaker<short>::olcNoiseMaker' in 'main'
+  
+  finalproject.vcxproj -> D:\stas_\Documents\programming\studia\programowanie1\synth\x64\Debug\finalproject.exe
